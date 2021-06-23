@@ -1,1 +1,19 @@
-2048 is a single player sliding block game. The objective of the game is to move the blocks around a=such that identical blocks combine to double up in order to reach a target score (default 2048) before the grid (default 5*5) exhausts. This game is made using basic concepts of python programming language. The blocks are moved along a direction using ASWD keys. The move taken as an input and the blocks are moved accordingly. The game checks if adjacent blocks along the same direction as the move are identical or not and combines them to form a new block of double the size accodingly. THe game also checks if the target score is reached or whether the grid is filled completely with no possible moves left.
+# Python 2048
+
+2048 is a single player sliding block game.
+
+## Programming
+
+The game is purely programmed using basic concepts of the python programming language.
+
+## Objective
+
+The objective of the game is to move the blocks around the grid such that adjacent blocks of identical value combine to double their value (starting value = 2) in order to reach a selected target score (default target = 2048) before the selected grid (default grid = 5*5) exhausts.
+
+## Controls
+
+The blocks can be moved along any of the 4 directions as long as the grid permits. This movement can be done using the ASWD keys. The direction choice is taken as an input from the user and accordingly all the blocks slide along the given direction.
+
+## Logic
+
+The program takes user input for the direction move sequence and moves the blocks through the empty grid slots (value = 0) along the given direction. The program also checks for adjacent blocks along the same given direction bearing equal values and combines these blocks and doubles their value. Finally, at the end of each move, the program checks whether the target score has been reached for any of the blocks or if the grid has exhausted or not.   
